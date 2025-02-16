@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(stethoscope.webp);
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background-color:transparent;
+    border: 2px solid black;
+    backdrop-filter: blur(30px);
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.wrapper h1 {
+    font-size: 35px;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    position: relative;
+    width: 420px;
+    height: 50px;
+     margin: 30px 0;
+}
+
+.input-box input {
+    width: 410px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 3px ;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i  {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transfrorm: translateY(30%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+
+.remember-forgot label input{
+    color: #fff;
+}
+.remember-forgot   a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot    a:hover{
+   
+    text-decoration:underline;
+}
+
+.wrapper .register-link {
+    text-align: center;
+    
+}
+
+.register-link  p   a   {
+    color: #fff;
+    text-decoration: none;
+}
+
+.register-link  p   a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn   {
+    width: 410px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+}
